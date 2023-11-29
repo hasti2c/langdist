@@ -1,0 +1,201 @@
+code,language,speakers
+eng,English,1.5B
+cmn,Mandarin Chinese,1.1B
+hin,Hindi,609.5M
+spa,Spanish,559.1M
+fra,French,309.8M
+arb,Standard Arabic,274.0M
+ben,Bengali,272.8M
+por,Portuguese,263.6M
+rus,Russian,255.0M
+urd,Urdu,231.7M
+ind,Indonesian,199.1M
+deu,Standard German,133.2M
+jpn,Japanese,123.4M
+pcm,Nigerian Pidgin,120.7M
+arz,Egyptian Spoken Arabic,102.4M
+mar,Marathi,99.2M
+tel,Telegu,96.0M
+tur,Turkish,90.0M
+tam,Tamil,86.6M
+yue,Yue Chinese,86.6M
+vie,Vietnamese,85.8M
+wuu,Wu Chinese,83.4M
+tgl,Tagalog,83.1M
+kor,Korean,81.7M
+pes,Iranian Persian,78.6M
+hau,Hausa,78.5M
+swh,Swahili,71.6M
+jav,Javanese,68.3M
+ita,Italian,67.9M
+pnb,Western Punjabi,66.7M
+guj,Gujarati,62.1M
+tha,Thai,60.8M
+kan,Kannada,58.7M
+amh,Amharic,57.6M
+bho,Bhojpuri,52.5M
+pan,Eastern Punjabi,52.1M
+,Min Nan Chinese,50.3M
+cjy,Jinyu Chinese,48.0M
+apc,Levantine Arabic,47.6M
+yor,Yoruba,45.9M
+hak,Hakka Chinese,44.3M
+mya,Burmese,43.0M
+apd,Sudanese Spoken Arabic,42.4M
+arq,Algerian Spoken Arabic,41.4M
+pol,Polish,40.6M
+lin,Lingala,40.3M
+ory,Odia,39.8M
+ary,Moroccan Spoken Arabic,39.2M
+hsn,Xiang Chinese,38.1M
+mal,Malayalam,37.4M
+snd,Sindhi,33.2M
+ukr,Ukrainian,33.0M
+sun,Sunda,32.4M
+ibo,Igbo,30.9M
+prs,Dari,30.3M
+pbu,Northern Pashto,30.3M
+uzn,Northern Uzbek,27.9M
+zul,Zulu,27.8M
+skr,Saraiki,26.2M
+npi,Nepali,25.6M
+aec,Sa'idi Spoken Arabic,25.1M
+nld,Dutch,24.5M
+ron,Romanian,24.5M
+gan,Gan Chinese,22.6M
+som,Somali,22.0M
+mai,Maithili,21.8M
+mag,Magahi,20.7M
+pbt,Southern Pashto,19.9M
+xho,Xhosa,19.2M
+gaz,West Central Oromo,19.2M
+zlm,Malay,19.2M
+acm,Mesopotamian Spoken Arabic,18.2M
+ars,Najdi Spoken Arabic,18.1M
+khm,Khmer,18.0M
+afr,Afrikaans,17.7M
+sin,Sinhala,17.6M
+fuv,Nigerian Fulfulde,16.6M
+kaz,Kazakh,16.5M
+hne,Chhattisgarhi,16.3M
+ceb,Cebuano,16.0M
+kmr,Northern Kurdish,15.8M
+asm,Assamese,15.3M
+tts,Northeastern Thai,15.0M
+azb,South Azerbaijani,14.9M
+bar,Bavarian,14.6M
+kin,Kinyarwanda,14.5M
+nya,Chichewa,14.4M
+bam,Bamanankan,14.2M
+tsn,Setswana,13.7M
+nso,Northern Sotho,13.7M
+sot,Southern Sotho,13.5M
+ell,Greek,13.1M
+swe,Swedish,13.1M
+hat,Haitian Creole,13.0M
+ctg,Chittagonian,13.0M
+run,Rundi,12.9M
+dyu,Jula,12.8M
+dcc,Deccan,12.8M
+hun,Hungarian,12.6M
+ayn,Sanaani Spoken Arabic,12.6M
+ktu,Kituba,12.4M
+wol,Wolof,12.4M
+vjk,Bajjika,12.3M
+ces,Czech,12.3M
+sck,Sadri,12.1M
+wes,Cameroon Pidgin,12.0M
+mos,Moore,11.9M
+acq,Ta'izzi-Adeni Spoken Arabic,11.9M
+mnp,Min Bei Chinese,11.7M
+aeb,Tunisian Spoken Arabic,11.7M
+syl,Sylheti,11.5M
+kng,Koongo,11.3M
+swc,Congo Swahili,11.1M
+afb,Gulf Spoken Arabic,11.1M
+lug,Ganda,11.0M
+cdo,Min Dong Chinese,10.9M
+sna,Shona,10.9M
+rkt,Rangpuri,10.8M
+acw,Hijazi Spoken Arabic,10.8M
+ibb,Ibibio,10.8M
+uig,Uyghur,10.5M
+ayp,North Mesopotamian Spoken Arabic,10.3M
+srp,Serbian,10.2M
+tso,Tsonga,10.0M
+aka,Akan,9.9M
+bgc,Haryanvi,9.8M
+hae,Eastern Oromo,9.7M
+heb,Hebrew,9.3M
+cat,Catalan,9.3M
+azj,North Azerbaijani,9.1M
+knc,Yerwa Kanuri,9.0M
+tir,Tigrigna,8.8M
+pst,Central Pashto,8.5M
+gax,Borana-Arsi-Guji Oromo,8.4M
+tgk,Tajik,8.3M
+kri,Krio,8.2M
+kik,Gikuyu,8.2M
+suk,Sukuma,8.1M
+rwr,Marwari,7.9M
+umb,Umbundu,7.8M
+mad,Madura,7.8M
+bul,Bulgarian,7.7M
+sat,Santhali,7.6M
+plt,Merina Malagasy,7.5M
+kab,Amazigh,7.5M
+slk,Slovak,7.3M
+kas,Kashmiri,7.1M
+lua,Luba-Kasai,7.1M
+vah,Varhadi-Nagpuri,7.0M
+ins,Indian Sign Language,6.8M
+hrv,Croatian,6.8M
+tuk,Turkmen,6.6M
+gug,Paraguayan Guaraní,6.5M
+ilo,Ilocano,6.5M
+gsw,Swiss German,6.5M
+hil,Hiligaynon,6.3M
+nod,Northern Thai,6.0M
+bjj,Kanauji,6.0M
+dje,Zarma,6.0M
+fuc,Pulaar,5.9M
+shi,Tachelhit,5.8M
+nap,Napoletano-Calabrese,5.7M
+fub,Adamawa Fulfulde,5.7M
+bns,Bundeli,5.6M
+dan,Danish,5.6M
+fin,Finnish,5.6M
+ewe,Éwé,5.5M
+mup,Malvi,5.4M
+ayl,Libyan Spoken Arabic,5.4M
+czh,Huizhou Chinese,5.4M
+nor,Norwegian,5.3M
+ckb,Central Kurdish,5.3M
+bci,Baoulé,5.3M
+kam,Kamba,5.3M
+luo,Dholuo,5.3M
+hno,Northern Hindko,5.3M
+sag,Sango,5.2M
+mey,Hassaniyya,5.2M
+kir,Kyrgyz,5.2M
+tat,Tatar,5.1M
+ayh,Hadrami Spoken Arabic,5.1M
+lir,Liberian English,5.1M
+lmn,Lambadi,5.1M
+san,Sanskrit,5.0M
+gpe,Ghanaian Pidgin English,5.0M
+bew,Betawi,5.0M
+min,Minangkabau,4.9M
+fuf,Pular,4.8M
+ssw,Swati,4.7M
+scn,Sicilian,4.7M
+shn,Shan,4.7M
+tiv,Tiv,4.6M
+sou,Southern Thai,4.5M
+lao,Lao,4.5M
+sid,Sidamo,4.4M
+bug,Bugis,4.4M
+awa,Awadhi,4.4M
+aln,Gheg Albanian,4.2M
+mtr,Mewari,4.2M
+csl,Chinese Sign Language,4.2M

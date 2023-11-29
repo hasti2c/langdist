@@ -1,0 +1,41 @@
+code,Language,Family,Branch,"First-language (L1) speakers","Second-language (L2) speakers","Total speakers (L1+L2)"
+eng,"English (excl. creole languages)",Indo-European,Germanic,380 million,1.077 billion,1.456 billion
+cmn,"Mandarin Chinese (incl. Standard Chinese, but excl. other varieties)",Sino-Tibetan,Sinitic,939 million,199 million,1.138 billion
+hin,"Hindi (excl. Urdu, and other languages)",Indo-European,Indo-Aryan,345 million,266 million,609 million
+spa,"Spanish (excl. creole languages)",Indo-European,Romance,485 million,74 million,559 million
+fra,"French (excl. creole languages)",Indo-European,Romance,81 million,229 million,310 million
+arb,"Modern Standard Arabic (excl. dialects)",Afro-Asiatic,Semitic,0,274 million,274 million
+ben,Bengali,Indo-European,Indo-Aryan,234 million,39 million,273 million
+por,Portuguese,Indo-European,Romance,236 million,27 million,264 million
+rus,Russian,Indo-European,Balto-Slavic,147 million,108 million,255 million
+urd,"Urdu (excl. Hindi)",Indo-European,Indo-Aryan,71 million,161 million,232 million
+ind,"Indonesian (excl. other Malay)",Austronesian,Malayo-Polynesian,44 million,155 million,199 million
+deu,Standard German,Indo-European,Germanic,75 million,58 million,133 million
+jpn,Japanese,Japonic,—,123 million,0.2 million,123 million
+pcm,Nigerian Pidgin,English Creole,Krio,5 million,116 million,121 million
+arz,"Egyptian Arabic (excl. other Arabic dialects)",Afro-Asiatic,Semitic,77 million,25 million,102 million
+mar,Marathi,Indo-European,Indo-Aryan,83 million,16 million,99 million
+tel,Telugu,Dravidian,South-Central,83 million,13 million,96 million
+tur,Turkish,Turkic,Oghuz,84 million,6 million,90 million
+tam,Tamil,Dravidian,Southern,79 million,8 million,87 million
+yue,"Yue Chinese (incl. Cantonese)",Sino-Tibetan,Sinitic,86 million,1 million,87 million
+vie,Vietnamese,Austroasiatic,Vietic,85 million,1 million,86 million
+wuu,"Wu Chinese (incl. Shanghainese)",Sino-Tibetan,Sinitic,83 million,0.1 million,83 million
+tgl,Tagalog,Austronesian,Malayo-Polynesian,29 million,54 million,83 million
+kor,Korean,Koreanic,—,82 million,—,82 million
+pes,"Iranian Persian (excl. Dari and Tajik)",Indo-European,Iranian,57 million,21 million,79 million
+hau,Hausa,Afro-Asiatic,Chadic,52 million,27 million,79 million
+swh,Swahili,Niger–Congo,Bantu,16 million,55 million,72 million
+jav,Javanese,Austronesian,Malayo-Polynesian,—,—,68 million
+ita,Italian,Indo-European,Romance,65 million,3 million,68 million
+pnb,"Western Punjabi (excl. Eastern Punjabi)",Indo-European,Indo-Aryan,—,—,67 million
+guj,Gujarati,Indo-European,Indo-Aryan,57 million,5 million,62 million
+tha,Thai,Kra–Dai,Zhuang–Tai,21 million,40 million,61 million
+kan,Kannada,Dravidian,Southern,44 million,15 million,59 million
+amh,Amharic,Afro-Asiatic,Semitic,32 million,25 million,58 million
+bho,Bhojpuri,Indo-European,Indo-Aryan,52 million,0.2 million,52 million
+pan,"Eastern Punjabi (excl. Western Punjabi)",Indo-European,Indo-Aryan,48 million,4 million,52 million
+nan,"Min Nan Chinese (incl. Hokkien)",Sino-Tibetan,Sinitic,50 million,0.4 million,50 million
+cjy,Jin Chinese,Sino-Tibetan,Sinitic,—,—,48 million
+apc,"Levantine Arabic (excl. other Arabic dialects)",Afro-Asiatic,Semitic,47 million,0.4 million,48 million
+yor,Yoruba,Niger–Congo,Atlantic–Congo,44 million,2 million,46 million
