@@ -35,7 +35,7 @@ kan,Kannada,58.7M,True,False,True,Kannada,1.0,Dravidian
 amh,Amharic,57.6M,True,True,True,Amharic,2.0,Afro-Asiatic
 bho,Bhojpuri,52.5M,True,False,True,Bhojpuri,1.0,Indo-European
 pan,Eastern Punjabi,52.1M,True,False,True,Panjabi,,Indo-European
-,Min Nan Chinese,50.3M,True,False,True,Min Nan Chinese,1.0,Sino-Tibetan
+nan,Min Nan Chinese,50.3M,True,False,True,Min Nan Chinese,1.0,Sino-Tibetan
 cjy,Jinyu Chinese,48.0M,True,False,True,Jinyu Chinese,,Sino-Tibetan
 apc,Levantine Arabic,47.6M,True,False,True,North Levantine Arabic,,Afro-Asiatic
 yor,Yoruba,45.9M,True,True,True,Yoruba,2.0,Atlantic-Congo

@@ -1,7 +1,8 @@
-import lang2vec.lang2vec as l2v
 import pandas as pd
 from matplotlib import pyplot as plt
 
+## Language List ##
+import lang2vec.lang2vec as l2v
 LANGUAGES = pd.DataFrame(index=sorted(list(l2v.DISTANCE_LANGUAGES)))
 LANGUAGES.index.name = "code"
 LANGUAGES["URIEL"] = LANGUAGES.index.isin(l2v.URIEL_LANGUAGES)

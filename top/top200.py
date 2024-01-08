@@ -2,6 +2,7 @@ import numpy as np
 import pandas as pd
 from matplotlib import pyplot as plt
 
+## Loading Data ##
 LANGUAGES = pd.read_csv("languages/languages.csv", index_col="code")
 TOP = pd.read_csv("top/top200.csv", index_col="code")
 LANGUAGES = LANGUAGES.loc[LANGUAGES.index.isin(TOP.index)]
