@@ -23,7 +23,9 @@ for dtype in l2v.DISTANCES:
 DISTANCE_FEATURE_MAP = {
   "syntactic": "syntax_wals|syntax_sswl|syntax_ethnologue",
   "phonological": "phonology_wals|phonology_ethnologue",
-  "inventory": "inventory_ethnologue|inventory_phoible_aa|inventory_phoible_gm|inventory_phoible_saphon|inventory_phoible_spa|inventory_phoible_ph|inventory_phoible_ra|inventory_phoible_upsid"
+  "inventory": "inventory_ethnologue|inventory_phoible_aa|inventory_phoible_gm|inventory_phoible_saphon|inventory_phoible_spa|inventory_phoible_ph|inventory_phoible_ra|inventory_phoible_upsid",
+  "genetic": "fam",
+  "geographic": "geo"
 }
 FEATURES_DATA = {}
 for dtype in l2v.DISTANCES:
@@ -35,10 +37,10 @@ def filter(dtype, series):
   indices = [list(LANGUAGES.index).index(lang) for lang in LANGUAGES[series].index]
   return DISTANCE_DATA[dtype][indices, :][:, indices]
 
-## l2v Distance Data ##
+## l2v Data ##
 L2V_DATA = {}
 for dtype in l2v.DISTANCES:
-  L2V_DATA[dtype] = LANGUAGES.copy().loc[:, ["URIEL"]]
+  L2V_DATA[dtype] = LANGUAGES.copy().loc[:, ["URIEL", "joshi", "family"]]
   data, l2v_data = DISTANCE_DATA[dtype], L2V_DATA[dtype]
   if dtype in FEATURES_DATA:
     feats = FEATURES_DATA[dtype][1]
@@ -47,9 +49,8 @@ for dtype in l2v.DISTANCES:
     l2v_data["zero properties"] = (feats == 0).sum(axis=1)
     l2v_data["one properties"] = (feats == 1).sum(axis=1)
   l2v_data.to_csv(f"top/l2v/{dtype}/{dtype}_data.csv")
-  # LANG_DISTS[f"mean {dtype} distance"] = np.mean(DATA, axis=1)
-  # LANG_DISTS[f"median {dtype} distance"] = np.median(DATA, axis=1)
-#   LANG_DISTS[f"zeros in {dtype} distance"] = (DATA == 0).sum(axis=1)
-#   LANG_DISTS[f"ones in {dtype} distance"] = (DATA == 1).sum(axis=1)
-#   LANG_DISTS[f"rest in {dtype} distance"] = ((DATA != 0) & (DATA != 1)).sum(axis=1)
-# LANG_DISTS.to_csv("top/top200_l2v_dists.csv")
+
+fams = list(LANGUAGES.groupby("family", dropna=False).size().sort_values(ascending=False).index)
+index = pd.MultiIndex.from_product([LANGUAGES["family"].unique(), LANGUAGES["joshi"].unique()], names=["family", "joshi"])
+count = LANGUAGES.groupby(["family", "joshi"], dropna=False).size().reindex(index, fill_value=0).reset_index()
+count = count.pivot(columns="family", index="joshi", values=0)[fams]
